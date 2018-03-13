@@ -1,5 +1,5 @@
 import {ViewContainerRef, Injectable} from "@angular/core";
-import {ICellRendererComp, ICellEditorComp, MethodNotImplementedException, IFilterComp} from "ag-grid/main";
+import {ICellRendererComp, ICellEditorComp, MethodNotImplementedException, IFilterComp} from "ag-grid-row-unselectable/main";
 import {ICellRendererAngularComp, ICellEditorAngularComp, IFilterAngularComp} from "./interfaces";
 
 @Injectable()

@@ -12,7 +12,7 @@ import {
     ColGroupDef,
     GetQuickFilterTextParams,
     ISetFilterParams
-} from "ag-grid/main";
+} from "ag-grid-row-unselectable/main";
 
 @Component({
     selector: 'ag-grid-column',

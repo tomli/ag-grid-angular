@@ -1,7 +1,7 @@
 {
-  "name": "ag-grid-angular",
+  "name": "ag-grid-row-unselectable-angular",
   "version": "10.0.0",
-  "description": "ag-Grid Angular Component",
+  "description": "A fork version of ag-grid-angular with row selection disable function added",
   "main": "main.js",
   "typings": "main.d.ts",
   "scripts": {
@@ -16,10 +16,6 @@
     "clean-build-no-verify": "npm run clean && npm run build-no-verify",
     "release": "npm run clean-build"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ceolter/ag-grid-angular.git"
-  },
   "keywords": [
     "grid",
     "data",
@@ -28,10 +24,16 @@
   ],
   "author": "Niall Crosby <niall.crosby@gmail.com>",
   "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Tom Li",
+      "email": "wolf1030@163.com"
+    }
+  ],
   "bugs": {
-    "url": "https://github.com/ceolter/ag-grid-angular/issues"
+    "url": "https://github.com/tomli/ag-grid-row-unselectable-angular/issues"
   },
-  "homepage": "http://www.ag-grid.com/",
+  "homepage": "https://github.com/tomli/ag-grid-row-unselectable-angular",
   "devDependencies": {
     "del": "2.2.x",
     "gulp": "3.9.x",
@@ -44,7 +46,7 @@
     "typescript": "2.1.x"
   },
   "peerDependencies": {
-    "ag-grid": "10.0.x",
+    "ag-grid-row-unselectable": "10.0.x",
     "@angular/compiler": ">=2.1.x",
     "@angular/compiler-cli": ">=2.1.x",
     "@angular/core": ">=2.1.x",

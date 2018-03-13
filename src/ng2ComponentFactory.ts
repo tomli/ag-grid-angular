@@ -7,7 +7,7 @@ import {
     IFilterComp,
     IFilterParams,
     IAfterGuiAttachedParams
-} from "ag-grid/main";
+} from "ag-grid-row-unselectable/main";
 import {BaseComponentFactory} from "./baseComponentFactory";
 import {ICellRendererAngularComp, ICellEditorAngularComp, IFilterAngularComp, AgFrameworkComponent} from "./interfaces";
 

@@ -14,7 +14,7 @@ import {
     IAfterGuiAttachedParams,
     IFloatingFilter,
     IFloatingFilterParams
-} from "ag-grid/main";
+} from "ag-grid-row-unselectable/main";
 
 export interface AgFrameworkComponent<T> {
     agInit(params:T) : void;

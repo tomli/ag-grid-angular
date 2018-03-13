@@ -5,7 +5,7 @@ HTMLInputElement = typeof HTMLInputElement === 'undefined' ? function () {} : HT
 HTMLButtonElement = typeof HTMLButtonElement === 'undefined' ? function () {} : HTMLButtonElement;
 
 var {AgGridNg2} = require('./dist/agGridNg2');
-var {ComponentUtil} = require("ag-grid/main");
+var {ComponentUtil} = require("ag-grid-row-unselectable/main");
 
 var missingProperties = [];
 ComponentUtil.ALL_PROPERTIES.forEach((property) => {

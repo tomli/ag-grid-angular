@@ -8,7 +8,7 @@ import {
     IFilterComp,
     ColDef,
     GridOptions
-} from "ag-grid/main";
+} from "ag-grid-row-unselectable/main";
 import {BaseComponentFactory} from "./baseComponentFactory";
 
 @Injectable()
